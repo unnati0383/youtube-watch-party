@@ -1,0 +1,26 @@
+{
+  "name": "youtube-watch-party",
+  "version": "1.0.0",
+  "description": "YouTube Watch Party — Full Stack MERN Application with Real-Time Playback Synchronization",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "server:start": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "client:build": "npm --prefix client run build",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
+    "test": "npm --prefix server test"
+  },
+  "keywords": [
+    "mern",
+    "socket.io",
+    "youtube-iframe-api",
+    "watch-party",
+    "rbac"
+  ],
+  "author": "Unnati",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

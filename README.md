@@ -2,6 +2,12 @@
 
 A production-quality, real-time collaborative YouTube Watch Party application built using the MERN stack (MongoDB, Express, React, Node.js) and WebSockets via Socket.IO. Multiple users can join a shared room and watch YouTube videos synchronized in real time with Role-Based Access Control (RBAC).
 
+# Deployment
+## Live Demo
+
+Frontend: https://youtube-watch-party-ruddy.vercel.app/
+Backend: https://youtube-watch-party-l9j6.onrender.com
+
 ---
 
 ## Architecture Overview
@@ -71,7 +77,7 @@ A production-quality, real-time collaborative YouTube Watch Party application bu
 | **Frontend** | React 19, TypeScript, Vite, React Router v7, Axios, Socket.IO Client, Tailwind CSS v4, Lucide Icons |
 | **Backend** | Node.js, Express 4, MongoDB, Mongoose 8, Socket.IO 4, CORS, Dotenv |
 | **Testing** | Node.js test runner, Socket.IO client automated integration suite |
-| **Deployment** | Render (Backend / WebSocket server), Render / Vercel (Frontend), MongoDB Atlas |
+| **Deployment** | Render (Backend / WebSocket server), Vercel (Frontend), MongoDB Atlas |
 
 ---
 
@@ -302,9 +308,6 @@ From the repository root:
 npm run dev
 ```
 
-The application will be accessible at:
-- Frontend: `http://localhost:5173`
-- Backend API: `http://localhost:5000/api`
 
 ---
 
